@@ -1,0 +1,111 @@
+/* ****************************************************************** OVERALL ******************************************** */
+
+.container {
+    margin-top: 50px;
+}
+
+.content {
+    background-color: rgb(20, 125, 217);
+    padding: 20px 35px 30px 35px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 600px;
+    height: 650px;
+    flex-direction: column;
+}
+
+input {
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    color: rgba(255, 255, 255, 0.856);
+
+    padding-left: 13px;
+}
+
+.title {
+    color: rgba(255, 255, 255, 0.856);
+    margin-bottom: 12px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 21px;
+    letter-spacing: 0px;
+}
+/* ********************************************** FULL NAME BLOCK ****************************************************************** */
+
+.fullName_block {
+    display: flex;
+    flex-direction: column;
+}
+
+/* **********************************************  DATE AND COUNTRY BLOCK ****************************************************************** */
+
+.date_and_country_block {
+    margin-top: 5.5%;
+    display: flex;
+}
+
+.dataOfBirth {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.country {
+    margin-left: 8%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.date_of_birth_field {
+    background-image: url('assets/calendar.png');
+    background-repeat: no-repeat;
+    background-position: 13px;
+    background-size: 23px;
+    padding-left: 48px;
+}
+
+/* *************************************************** SCHOOL BLOCK ****************************************************************** */
+
+.school_block {
+    margin-top: 52px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ***************************************** DESCRIPTION OD EXPECTATIONS BLOCK ****************************************************************** */
+
+.description_of_expectations_block {
+    margin-top: 5.5%;
+    display: flex;
+    flex-direction: column;
+    height: 37.5%;
+}
+
+.description_field {
+    padding-top: 13px;
+    resize: none;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 255);
+    color: rgba(255, 255, 255, 0.78);
+    padding-left: 13px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 21px;
+    font-style: italic;
+}
+
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.418);
+}

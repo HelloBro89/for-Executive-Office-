@@ -1,0 +1,55 @@
+/* *********************************  APP MODULE ********************************* */
+
+.container {
+    width: 100%;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.title {
+    color: blue;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+button {
+    margin-left: 20px;
+    width: 80px;
+    height: 35px;
+}
+
+/* *********************************  LIST MODULE ********************************* */
+
+.main_list {
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    background-color: rgba(233, 202, 135, 0.575);
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    background-color: rgba(236, 232, 223, 0.575);
+}
+
+.index {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.value {
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+}
